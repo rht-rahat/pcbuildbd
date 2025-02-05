@@ -76,7 +76,7 @@ const BlogPagination = ({ postIndex , posts , currentPage , pagination  })=>{
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
             className: "section",
             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "container some",
+                className: "container",
                 children: [
                     (0,_lib_utils_textConverter__WEBPACK_IMPORTED_MODULE_5__/* .markdownify */ .gI)(title, "h1", "h2 mb-8 text-center"),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {

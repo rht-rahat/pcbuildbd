@@ -5,6 +5,7 @@ import { ThemeProvider } from "next-themes";
 import Head from "next/head";
 import { useEffect, useState } from "react";
 import TagManager from "react-gtm-module";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "styles/style.scss";
 
 const App = ({ Component, pageProps }) => {
@@ -58,6 +59,7 @@ const App = ({ Component, pageProps }) => {
       </Head>
       <ThemeProvider attribute="class" defaultTheme={default_theme}>
         <Component {...pageProps} />
+        <SpeedInsights/>
       </ThemeProvider>
     </JsonContext>
   );
