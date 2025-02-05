@@ -1,53 +1,117 @@
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (() => {
 var exports = {};
-exports.id = "pages/_app";
-exports.ids = ["pages/_app"];
+exports.id = 888;
+exports.ids = [888];
 exports.modules = {
 
-/***/ "./context/state.js":
-/*!**************************!*\
-  !*** ./context/state.js ***!
-  \**************************/
+/***/ 2091:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"JsonContext\": () => (/* binding */ JsonContext),\n/* harmony export */   \"useSearchContext\": () => (/* binding */ useSearchContext)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _json_posts_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../.json/posts.json */ \"./.json/posts.json\");\n\n\n\nconst SearchContext = /*#__PURE__*/ (0,react__WEBPACK_IMPORTED_MODULE_1__.createContext)();\nconst JsonContext = ({ children  })=>{\n    const state = {\n        posts: _json_posts_json__WEBPACK_IMPORTED_MODULE_2__\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(SearchContext.Provider, {\n        value: state,\n        children: children\n    }, void 0, false, {\n        fileName: \"C:\\\\projects\\\\pc-builder_bd\\\\context\\\\state.js\",\n        lineNumber: 11,\n        columnNumber: 5\n    }, undefined);\n};\nconst useSearchContext = ()=>{\n    return (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(SearchContext);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb250ZXh0L3N0YXRlLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7O0FBQWtEO0FBQ1Y7QUFFeEMsTUFBTUcsOEJBQWdCSCxvREFBYUE7QUFFNUIsTUFBTUksY0FBYyxDQUFDLEVBQUVDLFNBQVEsRUFBRSxHQUFLO0lBQzNDLE1BQU1DLFFBQVE7UUFDWkosS0FBS0EsK0NBQUFBO0lBQ1A7SUFDQSxxQkFDRSw4REFBQ0MsY0FBY0ksUUFBUTtRQUFDQyxPQUFPRjtrQkFBUUQ7Ozs7OztBQUUzQyxFQUFFO0FBRUssTUFBTUksbUJBQW1CLElBQU07SUFDcEMsT0FBT1IsaURBQVVBLENBQUNFO0FBQ3BCLEVBQUUiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9uZXh0LXRhaWx3aW5kLWJvaWxlcnBsYXRlLy4vY29udGV4dC9zdGF0ZS5qcz85ZmE3Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGNyZWF0ZUNvbnRleHQsIHVzZUNvbnRleHQgfSBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCBwb3N0cyBmcm9tIFwiLi4vLmpzb24vcG9zdHMuanNvblwiO1xuXG5jb25zdCBTZWFyY2hDb250ZXh0ID0gY3JlYXRlQ29udGV4dCgpO1xuXG5leHBvcnQgY29uc3QgSnNvbkNvbnRleHQgPSAoeyBjaGlsZHJlbiB9KSA9PiB7XG4gIGNvbnN0IHN0YXRlID0ge1xuICAgIHBvc3RzLFxuICB9O1xuICByZXR1cm4gKFxuICAgIDxTZWFyY2hDb250ZXh0LlByb3ZpZGVyIHZhbHVlPXtzdGF0ZX0+e2NoaWxkcmVufTwvU2VhcmNoQ29udGV4dC5Qcm92aWRlcj5cbiAgKTtcbn07XG5cbmV4cG9ydCBjb25zdCB1c2VTZWFyY2hDb250ZXh0ID0gKCkgPT4ge1xuICByZXR1cm4gdXNlQ29udGV4dChTZWFyY2hDb250ZXh0KTtcbn07XG4iXSwibmFtZXMiOlsiY3JlYXRlQ29udGV4dCIsInVzZUNvbnRleHQiLCJwb3N0cyIsIlNlYXJjaENvbnRleHQiLCJKc29uQ29udGV4dCIsImNoaWxkcmVuIiwic3RhdGUiLCJQcm92aWRlciIsInZhbHVlIiwidXNlU2VhcmNoQ29udGV4dCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./context/state.js\n");
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ _app)
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
+// EXTERNAL MODULE: ./config/config.json
+var config = __webpack_require__(6626);
+;// CONCATENATED MODULE: ./config/theme.json
+const theme_namespaceObject = JSON.parse('{"R":{"k":{"T$":"Raleway:wght@400","BD":"Merriweather Sans:wght@400;700"}}}');
+// EXTERNAL MODULE: ./context/state.js + 1 modules
+var state = __webpack_require__(8906);
+// EXTERNAL MODULE: external "next-themes"
+var external_next_themes_ = __webpack_require__(1162);
+// EXTERNAL MODULE: external "next/head"
+var head_ = __webpack_require__(968);
+var head_default = /*#__PURE__*/__webpack_require__.n(head_);
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(6689);
+;// CONCATENATED MODULE: external "react-gtm-module"
+const external_react_gtm_module_namespaceObject = require("react-gtm-module");
+var external_react_gtm_module_default = /*#__PURE__*/__webpack_require__.n(external_react_gtm_module_namespaceObject);
+// EXTERNAL MODULE: ./styles/style.scss
+var style = __webpack_require__(1733);
+;// CONCATENATED MODULE: ./pages/_app.js
+
+
+
+
+
+
+
+
+
+const App = ({ Component , pageProps  })=>{
+    // default theme setup
+    const { default_theme  } = config.settings;
+    // import google font css
+    const pf = theme_namespaceObject.R.k.T$;
+    const sf = theme_namespaceObject.R.k.BD;
+    const [fontcss, setFontcss] = (0,external_react_.useState)();
+    (0,external_react_.useEffect)(()=>{
+        fetch(`https://fonts.googleapis.com/css2?family=${pf}${sf ? "&family=" + sf : ""}&display=swap`).then((res)=>res.text().then((css)=>setFontcss(css)));
+    }, [
+        pf,
+        sf
+    ]);
+    // google tag manager (gtm)
+    const tagManagerArgs = {
+        gtmId: config.params.tag_manager_id
+    };
+    (0,external_react_.useEffect)(()=>{
+        setTimeout(()=>{
+             true && config.params.tag_manager_id && external_react_gtm_module_default().initialize(tagManagerArgs);
+        }, 5000);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(state/* JsonContext */.k, {
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "preconnect",
+                        href: "https://fonts.gstatic.com",
+                        crossOrigin: "true"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("style", {
+                        dangerouslySetInnerHTML: {
+                            __html: `${fontcss}`
+                        }
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                        name: "viewport",
+                        content: "width=device-width, initial-scale=1, maximum-scale=5"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx(external_next_themes_.ThemeProvider, {
+                attribute: "class",
+                defaultTheme: default_theme,
+                children: /*#__PURE__*/ jsx_runtime_.jsx(Component, {
+                    ...pageProps
+                })
+            })
+        ]
+    });
+};
+/* harmony default export */ const _app = (App);
+
 
 /***/ }),
 
-/***/ "./pages/_app.js":
-/*!***********************!*\
-  !*** ./pages/_app.js ***!
-  \***********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _config_config_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @config/config.json */ \"./config/config.json\");\n/* harmony import */ var _config_theme_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @config/theme.json */ \"./config/theme.json\");\n/* harmony import */ var context_state__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! context/state */ \"./context/state.js\");\n/* harmony import */ var next_themes__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next-themes */ \"next-themes\");\n/* harmony import */ var next_themes__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_themes__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var react_gtm_module__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-gtm-module */ \"react-gtm-module\");\n/* harmony import */ var react_gtm_module__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_gtm_module__WEBPACK_IMPORTED_MODULE_7__);\n/* harmony import */ var styles_style_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! styles/style.scss */ \"./styles/style.scss\");\n/* harmony import */ var styles_style_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(styles_style_scss__WEBPACK_IMPORTED_MODULE_8__);\n\n\n\n\n\n\n\n\n\nconst App = ({ Component , pageProps  })=>{\n    // default theme setup\n    const { default_theme  } = _config_config_json__WEBPACK_IMPORTED_MODULE_1__.settings;\n    // import google font css\n    const pf = _config_theme_json__WEBPACK_IMPORTED_MODULE_2__.fonts.font_family.primary;\n    const sf = _config_theme_json__WEBPACK_IMPORTED_MODULE_2__.fonts.font_family.secondary;\n    const [fontcss, setFontcss] = (0,react__WEBPACK_IMPORTED_MODULE_6__.useState)();\n    (0,react__WEBPACK_IMPORTED_MODULE_6__.useEffect)(()=>{\n        fetch(`https://fonts.googleapis.com/css2?family=${pf}${sf ? \"&family=\" + sf : \"\"}&display=swap`).then((res)=>res.text().then((css)=>setFontcss(css)));\n    }, [\n        pf,\n        sf\n    ]);\n    // google tag manager (gtm)\n    const tagManagerArgs = {\n        gtmId: _config_config_json__WEBPACK_IMPORTED_MODULE_1__.params.tag_manager_id\n    };\n    (0,react__WEBPACK_IMPORTED_MODULE_6__.useEffect)(()=>{\n        setTimeout(()=>{\n             false && 0;\n        }, 5000);\n    // eslint-disable-next-line react-hooks/exhaustive-deps\n    }, []);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(context_state__WEBPACK_IMPORTED_MODULE_3__.JsonContext, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_5___default()), {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"preconnect\",\n                        href: \"https://fonts.gstatic.com\",\n                        crossOrigin: \"true\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\projects\\\\pc-builder_bd\\\\pages\\\\_app.js\",\n                        lineNumber: 43,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"style\", {\n                        dangerouslySetInnerHTML: {\n                            __html: `${fontcss}`\n                        }\n                    }, void 0, false, {\n                        fileName: \"C:\\\\projects\\\\pc-builder_bd\\\\pages\\\\_app.js\",\n                        lineNumber: 48,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"viewport\",\n                        content: \"width=device-width, initial-scale=1, maximum-scale=5\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\projects\\\\pc-builder_bd\\\\pages\\\\_app.js\",\n                        lineNumber: 54,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\projects\\\\pc-builder_bd\\\\pages\\\\_app.js\",\n                lineNumber: 41,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_themes__WEBPACK_IMPORTED_MODULE_4__.ThemeProvider, {\n                attribute: \"class\",\n                defaultTheme: default_theme,\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                    ...pageProps\n                }, void 0, false, {\n                    fileName: \"C:\\\\projects\\\\pc-builder_bd\\\\pages\\\\_app.js\",\n                    lineNumber: 60,\n                    columnNumber: 9\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"C:\\\\projects\\\\pc-builder_bd\\\\pages\\\\_app.js\",\n                lineNumber: 59,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\projects\\\\pc-builder_bd\\\\pages\\\\_app.js\",\n        lineNumber: 40,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQXlDO0FBQ0Y7QUFDSztBQUNBO0FBQ2Y7QUFDZTtBQUNGO0FBQ2Y7QUFFM0IsTUFBTVEsTUFBTSxDQUFDLEVBQUVDLFVBQVMsRUFBRUMsVUFBUyxFQUFFLEdBQUs7SUFDeEMsc0JBQXNCO0lBQ3RCLE1BQU0sRUFBRUMsY0FBYSxFQUFFLEdBQUdYLHlEQUFlO0lBRXpDLHlCQUF5QjtJQUN6QixNQUFNYSxLQUFLWix5RUFBK0I7SUFDMUMsTUFBTWdCLEtBQUtoQiwyRUFBaUM7SUFDNUMsTUFBTSxDQUFDa0IsU0FBU0MsV0FBVyxHQUFHZCwrQ0FBUUE7SUFDdENELGdEQUFTQSxDQUFDLElBQU07UUFDZGdCLE1BQ0UsQ0FBQyx5Q0FBeUMsRUFBRVIsR0FBRyxFQUM3Q0ksS0FBSyxhQUFhQSxLQUFLLEVBQUUsQ0FDMUIsYUFBYSxDQUFDLEVBQ2ZLLElBQUksQ0FBQyxDQUFDQyxNQUFRQSxJQUFJQyxJQUFJLEdBQUdGLElBQUksQ0FBQyxDQUFDRyxNQUFRTCxXQUFXSztJQUN0RCxHQUFHO1FBQUNaO1FBQUlJO0tBQUc7SUFFWCwyQkFBMkI7SUFDM0IsTUFBTVMsaUJBQWlCO1FBQ3JCQyxPQUFPM0Isc0VBQTRCO0lBQ3JDO0lBQ0FLLGdEQUFTQSxDQUFDLElBQU07UUFDZHlCLFdBQVcsSUFBTTtZQTlCckIsTUFnQ29DLElBQzVCdkIsQ0FBcUNtQjtRQUN6QyxHQUFHO0lBQ0gsdURBQXVEO0lBQ3pELEdBQUcsRUFBRTtJQUVMLHFCQUNFLDhEQUFDeEIsc0RBQVdBOzswQkFDViw4REFBQ0Usa0RBQUlBOztrQ0FFSCw4REFBQzRCO3dCQUNDQyxLQUFJO3dCQUNKQyxNQUFLO3dCQUNMQyxhQUFZOzs7Ozs7a0NBRWQsOERBQUNDO3dCQUNDQyx5QkFBeUI7NEJBQ3ZCQyxRQUFRLENBQUMsRUFBRW5CLFFBQVEsQ0FBQzt3QkFDdEI7Ozs7OztrQ0FHRiw4REFBQ29CO3dCQUNDQyxNQUFLO3dCQUNMQyxTQUFROzs7Ozs7Ozs7Ozs7MEJBR1osOERBQUN0QyxzREFBYUE7Z0JBQUN1QyxXQUFVO2dCQUFRQyxjQUFjaEM7MEJBQzdDLDRFQUFDRjtvQkFBVyxHQUFHQyxTQUFTOzs7Ozs7Ozs7Ozs7Ozs7OztBQUloQztBQUVBLGlFQUFlRixHQUFHQSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbmV4dC10YWlsd2luZC1ib2lsZXJwbGF0ZS8uL3BhZ2VzL19hcHAuanM/ZTBhZCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgY29uZmlnIGZyb20gXCJAY29uZmlnL2NvbmZpZy5qc29uXCI7XG5pbXBvcnQgdGhlbWUgZnJvbSBcIkBjb25maWcvdGhlbWUuanNvblwiO1xuaW1wb3J0IHsgSnNvbkNvbnRleHQgfSBmcm9tIFwiY29udGV4dC9zdGF0ZVwiO1xuaW1wb3J0IHsgVGhlbWVQcm92aWRlciB9IGZyb20gXCJuZXh0LXRoZW1lc1wiO1xuaW1wb3J0IEhlYWQgZnJvbSBcIm5leHQvaGVhZFwiO1xuaW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IFRhZ01hbmFnZXIgZnJvbSBcInJlYWN0LWd0bS1tb2R1bGVcIjtcbmltcG9ydCBcInN0eWxlcy9zdHlsZS5zY3NzXCI7XG5cbmNvbnN0IEFwcCA9ICh7IENvbXBvbmVudCwgcGFnZVByb3BzIH0pID0+IHtcbiAgLy8gZGVmYXVsdCB0aGVtZSBzZXR1cFxuICBjb25zdCB7IGRlZmF1bHRfdGhlbWUgfSA9IGNvbmZpZy5zZXR0aW5ncztcblxuICAvLyBpbXBvcnQgZ29vZ2xlIGZvbnQgY3NzXG4gIGNvbnN0IHBmID0gdGhlbWUuZm9udHMuZm9udF9mYW1pbHkucHJpbWFyeTtcbiAgY29uc3Qgc2YgPSB0aGVtZS5mb250cy5mb250X2ZhbWlseS5zZWNvbmRhcnk7XG4gIGNvbnN0IFtmb250Y3NzLCBzZXRGb250Y3NzXSA9IHVzZVN0YXRlKCk7XG4gIHVzZUVmZmVjdCgoKSA9PiB7XG4gICAgZmV0Y2goXG4gICAgICBgaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3MyP2ZhbWlseT0ke3BmfSR7XG4gICAgICAgIHNmID8gXCImZmFtaWx5PVwiICsgc2YgOiBcIlwiXG4gICAgICB9JmRpc3BsYXk9c3dhcGBcbiAgICApLnRoZW4oKHJlcykgPT4gcmVzLnRleHQoKS50aGVuKChjc3MpID0+IHNldEZvbnRjc3MoY3NzKSkpO1xuICB9LCBbcGYsIHNmXSk7XG5cbiAgLy8gZ29vZ2xlIHRhZyBtYW5hZ2VyIChndG0pXG4gIGNvbnN0IHRhZ01hbmFnZXJBcmdzID0ge1xuICAgIGd0bUlkOiBjb25maWcucGFyYW1zLnRhZ19tYW5hZ2VyX2lkLFxuICB9O1xuICB1c2VFZmZlY3QoKCkgPT4ge1xuICAgIHNldFRpbWVvdXQoKCkgPT4ge1xuICAgICAgcHJvY2Vzcy5lbnYuTk9ERV9FTlYgPT09IFwicHJvZHVjdGlvblwiICYmXG4gICAgICAgIGNvbmZpZy5wYXJhbXMudGFnX21hbmFnZXJfaWQgJiZcbiAgICAgICAgVGFnTWFuYWdlci5pbml0aWFsaXplKHRhZ01hbmFnZXJBcmdzKTtcbiAgICB9LCA1MDAwKTtcbiAgICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgcmVhY3QtaG9va3MvZXhoYXVzdGl2ZS1kZXBzXG4gIH0sIFtdKTtcblxuICByZXR1cm4gKFxuICAgIDxKc29uQ29udGV4dD5cbiAgICAgIDxIZWFkPlxuICAgICAgICB7LyogZ29vZ2xlIGZvbnQgY3NzICovfVxuICAgICAgICA8bGlua1xuICAgICAgICAgIHJlbD1cInByZWNvbm5lY3RcIlxuICAgICAgICAgIGhyZWY9XCJodHRwczovL2ZvbnRzLmdzdGF0aWMuY29tXCJcbiAgICAgICAgICBjcm9zc09yaWdpbj1cInRydWVcIlxuICAgICAgICAvPlxuICAgICAgICA8c3R5bGVcbiAgICAgICAgICBkYW5nZXJvdXNseVNldElubmVySFRNTD17e1xuICAgICAgICAgICAgX19odG1sOiBgJHtmb250Y3NzfWAsXG4gICAgICAgICAgfX1cbiAgICAgICAgLz5cbiAgICAgICAgey8qIHJlc3BvbnNpdmUgbWV0YSAqL31cbiAgICAgICAgPG1ldGFcbiAgICAgICAgICBuYW1lPVwidmlld3BvcnRcIlxuICAgICAgICAgIGNvbnRlbnQ9XCJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MSwgbWF4aW11bS1zY2FsZT01XCJcbiAgICAgICAgLz5cbiAgICAgIDwvSGVhZD5cbiAgICAgIDxUaGVtZVByb3ZpZGVyIGF0dHJpYnV0ZT1cImNsYXNzXCIgZGVmYXVsdFRoZW1lPXtkZWZhdWx0X3RoZW1lfT5cbiAgICAgICAgPENvbXBvbmVudCB7Li4ucGFnZVByb3BzfSAvPlxuICAgICAgPC9UaGVtZVByb3ZpZGVyPlxuICAgIDwvSnNvbkNvbnRleHQ+XG4gICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBBcHA7XG4iXSwibmFtZXMiOlsiY29uZmlnIiwidGhlbWUiLCJKc29uQ29udGV4dCIsIlRoZW1lUHJvdmlkZXIiLCJIZWFkIiwidXNlRWZmZWN0IiwidXNlU3RhdGUiLCJUYWdNYW5hZ2VyIiwiQXBwIiwiQ29tcG9uZW50IiwicGFnZVByb3BzIiwiZGVmYXVsdF90aGVtZSIsInNldHRpbmdzIiwicGYiLCJmb250cyIsImZvbnRfZmFtaWx5IiwicHJpbWFyeSIsInNmIiwic2Vjb25kYXJ5IiwiZm9udGNzcyIsInNldEZvbnRjc3MiLCJmZXRjaCIsInRoZW4iLCJyZXMiLCJ0ZXh0IiwiY3NzIiwidGFnTWFuYWdlckFyZ3MiLCJndG1JZCIsInBhcmFtcyIsInRhZ19tYW5hZ2VyX2lkIiwic2V0VGltZW91dCIsImluaXRpYWxpemUiLCJsaW5rIiwicmVsIiwiaHJlZiIsImNyb3NzT3JpZ2luIiwic3R5bGUiLCJkYW5nZXJvdXNseVNldElubmVySFRNTCIsIl9faHRtbCIsIm1ldGEiLCJuYW1lIiwiY29udGVudCIsImF0dHJpYnV0ZSIsImRlZmF1bHRUaGVtZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
-
-/***/ }),
-
-/***/ "./styles/style.scss":
-/*!***************************!*\
-  !*** ./styles/style.scss ***!
-  \***************************/
+/***/ 1733:
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ "next-themes":
-/*!******************************!*\
-  !*** external "next-themes" ***!
-  \******************************/
+/***/ 1162:
 /***/ ((module) => {
 
 "use strict";
@@ -55,10 +119,7 @@ module.exports = require("next-themes");
 
 /***/ }),
 
-/***/ "next/head":
-/*!****************************!*\
-  !*** external "next/head" ***!
-  \****************************/
+/***/ 968:
 /***/ ((module) => {
 
 "use strict";
@@ -66,10 +127,7 @@ module.exports = require("next/head");
 
 /***/ }),
 
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 6689:
 /***/ ((module) => {
 
 "use strict";
@@ -77,58 +135,11 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ "react-gtm-module":
-/*!***********************************!*\
-  !*** external "react-gtm-module" ***!
-  \***********************************/
+/***/ 997:
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("react-gtm-module");
-
-/***/ }),
-
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("react/jsx-dev-runtime");
-
-/***/ }),
-
-/***/ "./.json/posts.json":
-/*!**************************!*\
-  !*** ./.json/posts.json ***!
-  \**************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('[{"frontmatter":{"title":"XENEON 32QHD240 Monitor","date":"2022-04-04T01:00:00.000Z","image":"/images/post/post-1.png","categories":["monitor"],"featured":true,"draft":false},"content":"\\nIt looks like Corsair’s price tag did not change much with the 32QHD240 from its older brother, the 32QHD165. It is just a 50$ step up from last year’s model, rounding up at 700$.\\nThe monitor features a 1440p IPS display just like the previous year’s model, but Corsair has managed to give the display a refresh rate of 240 Hz, which is a good step up from the 32QHD165. The display is VESA DisplayHDR 600 rated and has Samsung’s Quantum Dot technology, which, according to Corsair, filters the LED backlight through millions of variable-sized crystals to improve color accuracy. Corsair claims that the display provides 100% sRGB, 100% Adobe RGB, and 98% DCI-P3 color gamut coverage.\\nFor the ports, this one has two HDMI 2.1s, two USB Type-C, a display port 1.4, and an additional USB 3.1 charging hub with two type-A ports. Interestingly enough, this one also has 3.5 mm audio out.\\nIf Corsair’s claims are correct, this monitor might be a good choice for streamers and content creators who focus on competitive, and/or fast-paced titles.\\nSadly, however, this one has a rather simple stand rather than the one in the other monitors which looks much better.\\n\\n#### XENEON 32UHD144\\n\\nThe 32UHD144 is where things get interesting. This one is a 32 inch monitor with a 4k 144 Hz display. This one costs a thousand bucks, which, unlike the previous 32QHD240, is rather cheap for a monitor with its specs.\\nSimilar to the QHD240, Corsair is claiming that the display provides 100% sRGB and 100% Adobe RGB, and the selection of ports remains the same. The same goes for the Quantum Dot technology and VESA DisplayHDR 600 rating.\\nAll in all, this one seems to be a good monitor for gamers and professionals alike. From the looks of it, it feels like this monitor will be popular among streamers and content creators alike, considering this one is supposed to have a display suitable for editing, color grading, and gaming at higher frame rates at the same time.\\n\\nEven though the monitors seem promising enough, Corsair’s business practices with these monitors remind me of Apple. There is an option to purchase the monitor without the stand, and that will save you 50$ and 100$ for the 32QHD240 and the 32UHD144 respectively. Although it’s way better than having to pay a thousand bucks for a simple monitor stand, there are much cheaper VESA mounts in the market that do a better job of holding the monitor in place and provide better adjustability. It is weird to see Corsair charging such high prices for these stands which are fairly basic.\\n\\nIt is great to see Corsair in the market for gaming monitors. Although the prices right now are a bit high with the 1440p variants, they are doing fairly good with the 4k model. It will be interesting to see what Corsair does in the future with their monitors, but till then, let’s enjoy these monitors. Also, kudos to Corsair for having a good naming pattern instead of a bash on the keyboard.\\n\\n> It will be interesting to see what Corsair does in the future with their monitors, but till then, let’s enjoy these monitors. Also, kudos to Corsair for having a good naming pattern instead of a bash on the keyboard.\\n\\n\\n\\n![alter-text](/images/post/monitor1.png)\\n*Example Caption*\\n\\n\\n\\n<Youtube id=\\"nywri0ms-Ig\\" title=\\"Play:Youtube\\"/>","slug":"post-1"},{"frontmatter":{"title":"Why Learn Programming","date":"2022-04-04T10:00:00.000Z","image":"/images/post/post-6.png","categories":["programming"],"featured":false,"draft":false},"content":"\\n\\nAbout PC Builder Bangladesh\\nPC Builder Bangladesh is the first video based podcast. We create video regarding gaming, tech news, tutorials and pc build builds. You can learn about gaming, gaming pc, pc building tutorials and other pc issues. Apart from these we also unbox and review pc components and other tech gadgets. You can join local and international tech gossips as well.  Subscribe and join us over youtube. We are also available on other social handles, feel free to communicate us over those as well.  We are tech enthusiasts like you, please help us grow.\\n\\n\\n<Youtube id=\\"rBSpHXfDqZ0\\" title=\\"Play:Youtube\\"/>\\n","slug":"post-10"},{"frontmatter":{"title":"১ লাখ ১৫ হাজার- ২ লাখ টাকা বাজেটের পিসি বিল্ড","date":"2025-01-10T11:00:00.000Z","image":"/images/post/post-9.png","categories":["youtube"],"featured":false,"draft":false},"content":"\\n\\n১ লাখ ১৫ হাজার টাকা বা এর আশেপাশের বাজেটে 1440p গেমিং বা হেভি ভিডিও এডিটিং/প্রোডাক্টিভিটি এর কাজের জন্য বেশ ভালো মানের পিসি বিল্ড করা সম্ভব এই মুহুর্তে। বিশেষ করে মাল্টিকোর ওয়ার্কলোডের জন্য আমাদের কাছে 13th gen core i5 এর মত খুবই চমৎকার অপশন রয়েছে। Core i5 13400f প্রোডাক্টিভিটির পাশাপাশি গেমিং এও আমাদের উদ্দেশ্য ভালোভাবেই পুরণ করবে। বিশেষত, Esports গেমস যেমন valorant, CSGO,Fortnite,Pubg, Rainbow Six বা APEX এর মত গেমগুলো যারা স্ট্রিম করতে চান, তাদের জন্য এই বাজেটটি একটি সুইটস্পট।\\n\\n#### বাজেট ১ লাখ ৯৫ হাজার-২ লাখ টাকা \\n\\nএই বাজেটে আমরা দুইটি বিল্ড করতে চাই। একটা 4070 দিয়ে, আরেকটা Sapphire RX 6900 XT Special Edition GPU দিয়ে। এক্ষেত্রে আমরা 12900K+4070 এর সাথে ৮৫০ ওয়াট পাওয়ার সাপ্লাই দিয়ে বিল্ড করবো, অন্যটিতে Sapphire 6900XT এর সাথে 12700KF,750W পাওয়ার সাপ্লাই থাকবে।\\n\\n#### Components:\\n\\n![alter-text](/images/post/price.png)\\n*component price*\\n\\n\\n\\n<Youtube id=\\"yGSLO2Mwkik\\" title=\\"Play:Youtube\\"/>","slug":"post-11"},{"frontmatter":{"title":"Gaming Pc Build","date":"2025-02-01T12:00:00.000Z","image":"/images/post/post-4.png","categories":["pc build"],"featured":true,"draft":false},"content":"\\nBuilding your own gaming PC can be an exciting and rewarding experience, allowing you to create a system tailored to your needs and budget. Here’s a recommended gaming PC build for 2025:\\n\\n**CPU:** AMD Ryzen 5 7600X or Intel Core i5-13600K  \\nThese processors offer excellent multi-core performance, ideal for gaming and multitasking.\\n\\n**GPU:** NVIDIA GeForce RTX 4070 or AMD Radeon RX 7800 XT  \\nThese graphics cards provide great performance at 1440p and 4K resolutions, ensuring smooth gaming experiences.\\n\\n**RAM:** 16GB (2x8GB) DDR5-6000  \\nFor modern games, 16GB of fast RAM ensures smooth multitasking and gaming.\\n\\n**Storage:** 1TB NVMe SSD (Samsung 980 Pro or similar)  \\nFast load times and plenty of space for your favorite games.\\n\\n**Motherboard:** ASUS ROG Strix B550-F or MSI MAG Z690 TOMAHAWK  \\nEnsure compatibility with your CPU and future upgrades, plus solid features like Wi-Fi and USB 3.2 support.\\n\\n**Power Supply:** 750W 80+ Gold Certified  \\nA reliable PSU is crucial for stability, especially with high-end components.\\n\\n**Case:** NZXT H510 or Phanteks P400A  \\nThese cases offer great airflow, aesthetics, and cable management options.\\n\\nThis build will ensure an immersive gaming experience at high settings while being upgradeable for the future.\\n\\n","slug":"post-12"},{"frontmatter":{"title":"1st Player এর Case play | 1st Player Mi8 Review","date":"2022-04-04T13:00:00.000Z","image":"/images/post/post-5.png","categories":["youtube"],"featured":false,"draft":false},"content":"\\n\\nAbout PC Builder Bangladesh\\nPC Builder Bangladesh is the first video based podcast. We create video regarding gaming, tech news, tutorials and pc build builds. You can learn about gaming, gaming pc, pc building tutorials and other pc issues. Apart from these we also unbox and review pc components and other tech gadgets. You can join local and international tech gossips as well.  Subscribe and join us over youtube. We are also available on other social handles, feel free to communicate us over those as well.  We are tech enthusiasts like you, please help us grows.\\n\\n\\n<Youtube id=\\"eEO7g2ifsGI\\" title=\\"Play:Youtube\\"/>\\n","slug":"post-13"},{"frontmatter":{"title":"What you need to know about Programming","date":"2022-04-04T14:00:00.000Z","image":"/images/post/post-6.png","categories":["game"],"featured":false,"draft":false},"content":"\\n\\nAbout PC Builder Bangladesh\\nPC Builder Bangladesh is the first video based podcast. We create video regarding gaming, tech news, tutorials and pc build builds. You can learn about gaming, gaming pc, pc building tutorials and other pc issues. Apart from these we also unbox and review pc components and other tech gadgets. You can join local and international tech gossips as well.  Subscribe and join us over youtube. We are also available on other social handles, feel free to communicate us over those as well.  We are tech enthusiasts like you, please help us grow.\\n\\n\\n<Youtube id=\\"rBSpHXfDqZ0\\" title=\\"Play:Youtube\\"/>\\n","slug":"post-14"},{"frontmatter":{"title":"প্রশ্নোত্তরে RTX 50 সিরিজ","date":"2025-02-01T15:00:00.000Z","image":"/images/post/post-7.png","categories":["Graphic"],"featured":false,"draft":false},"content":"\\n\\nআসন্ন RTX 50 সিরিজ হোক বা ইন্টেলের ARC B সিরিজ কিংবা AMD এর কোনো নতুন প্রসেসর বা গ্রাফিক্স কার্ড , বিভিন্ন সময় আপডেটেড নিউজগুলো একত্র করে একটি বড় আর্টিকেলের মাধ্যমে আমরা আপনাদের কাছে উপস্থাপন করে থাকি । তবে যারা পড়তে ভালোবাসেন না, তাদের জন্য এই ধরনের লেখনী কিছুটা বিরক্তিকর ও ক্লান্তিকরই মনে হয়।\\n\\nসামনেই আসতে যাচ্ছে RTX 50 সিরিজ। এবার এই ধরনের পাঠক বা ফলোয়ারদের কথা মাথায় রেখে আমরা RTX 50 সিরিজের সমস্ত তথ্য সাজিয়েছি একটু ভিন্নভাবে,ছোট-ছোট প্রশ্নোত্তর ভিত্তিক উপস্থাপনার মাধ্যমে। আশা করছি সমস্ত পাঠকদেরই এটি ভালো লাগবে।\\n\\n \\n\\n#### RTX 50 সিরিজ সংক্রান্ত অফিশিয়াল ঘোষণা কবে আসবে?\\nজানুয়ারির ৬ তারিখে ২০২৫ সালের CES এর KEYNOTE এ অফিশিয়ালি NVIDIA উন্মোচন করবে RTX 50 সিরিজ। এইদিনেই জানা যাবে গ্রাফিক্স কার্ডগুলোর আর্কিটেকচার,ফিচার ও পারফর্মেন্স সম্পর্কে সমস্ত অফিশিয়াল তথ্য।\\nপ্রথমে কোন গ্রাফিক্স কার্ড লঞ্চ হবে??\\nএখন পর্যন্ত যতদুর তথ্য জানা গিয়েছে এবার RTX 5090 বা ফ্লাগশিপ মডেলের আগে বাজারে আসবে RTX 5080। অর্থাৎ 5080 আগে লঞ্চ হবে, পরবর্তীতে এক দেড় মাসের মধ্যে হয়তো RTX 5090 আত্মপ্রকাশ করবে।\\n\\n#### RTX 5080 ও 5090 কবে লঞ্চ হবে?\\nRTX 5080 জানুয়ারির ২১ তারিখে লঞ্চ হবে বলে জানা গিয়েছে। তবে RTX 5090 এর রিলিজডেটের তারিখ সম্পর্কে নিশ্চিত হওয়া যায়নি। তবে ফেব্রুয়ারি মাসে হয়তো 5090 লঞ্চ হলেও হতে পারে। এটি নিশ্চিত হওয়া যাবে ৬ তারিখেই।\\n\\n \\n\\n#### RTX 50 সিরিজের GPU এর সাধারণ স্পেসিফিকেশন, নাম ফিচার কি কি?\\nRTX 50 সিরিজের কোডনেম হবে  “BLACKWELL”। উল্লেখ্য, RTX 40 এর কোডনেম ছিল ADA LOVELACE । GPU গুলোর নাম হবে GBXXX-XXX এরকম। সম্ভবত সবথেকে শক্তিশালী GPU টি হবে GB202-xxx .। RTX 50 সিরিজে থাকবে NEXT GENERATION GDDR7 MEMORY। আরো থাকবে PCIe5। আগেরবারের মতই থাকবে 12V-2X6 power connector পাওয়ার কানেক্টর।\\n\\nযেখানে RTX 40 সিরিজের GDDR6,GDDR6X এর স্পিড ছিল 17-23Gbps, GDDR7 এর স্পিড থাকবে ৩০ এর আশেপাশে। অনেক ক্ষেত্রে আগেও NVIDIA কে দেখা গিয়েছে সর্বোচ্চ স্পিড ব্যবহার না করতে ,কিছুটা downclocked করে দিতে। SK-Hynix এর মতে GDDR7 জেনারেশনে 40gbps এর মেমোরিও আসবে একটা সময়।\\n\\nথাকতে পারে উল্লেখযোগ্য পরিমাণে L2 Cache।\\n\\n#### BLACKWELL সম্পর্কে জানতে চাই।\\nআর্কিটেকচারটি TSMC এর 4NP “4nm Nvidia Performance” প্রসেসে প্রস্তত।অর্থাৎ 40 সিরিজে ব্যবহ্বত N4 নোডকেই আরো “ধুয়ে মুছে” ,আরেকটু উন্নত করে ব্যবহার করা হচ্ছে। অনেকেই আশা করেছিলেন যে TSMC এর চিত্তাকর্ষক N3 প্রসেস এর ব্যবহার হবে এবার, তা হচ্ছে না আসলে।\\n\\nBlackwell সম্পর্কে মাঝেমধ্যেই এনভিডিয়ার পক্ষ থেকে বেশ কিছু তথ্য বিভিন্ন সময় দেখানো হয়েছে। ব্লাকওয়েলে থাকবে ১০৪ বিলিয়ন ট্রাঞ্জিস্টর।এটিকে বাহ্যিকভাবে সবথেকে বড় চিপ হিসেবে আখ্যা দিয়েছে তারা। এটির সর্বোচ্চ bandwidth হবে 10TB/s।\\n\\n![alter-text](/images/post/blackwell.png)\\n*Blackwell TSMC এর 4NP “4nm Nvidia Performance*\\n\\n\\n\\n\\n<Youtube id=\\"SRiV0RgHWI0\\" title=\\"Play:Youtube\\"/>","slug":"post-15"},{"frontmatter":{"title":"A Gaming PC Build from Renaissance ft Geforce RTX Kudan","date":"2025-02-04T02:00:00.000Z","image":"/images/post/post-2.png","categories":["pc build"],"featured":true,"draft":false},"content":"\\nFor all techies and enthusiasts, we are(PC Builder Bangladesh) presenting one of our mega pc build which is about $8000 USD worth of gaming pc; where passions and creativity made a dream real.\\n\\nThe owner of the build is an Esports Player in the profession and also a PC enthusiast. He has been playing games for almost 20 years with experience of 10 years in the competitive gaming sector. Interestingly, he wants to be anonymous and thinks this identity is enough for the audience. After the video had been uploaded, on the local media, he gained some names like “Kudan Bhai (Kudan Bro)“, “Esports Gamer Bhai(Esports Gamer Bro)“.\\n\\nAnd for accomplishing his dream build, The owner chooses PC Builder Bangladesh without hesitation. The project was led by Mahbub Alam Rakib Who is a famous and experienced PC builder in Bangladesh. You may know it,  previously, PCB BD has done some amazing works in Bangladesh.\\n\\n### Why the name “Steamboy” : The theme of the build \\n\\n#### Processor\\n\\nA core i9 9900k has been used for this Build. You may ask about 10900k But this project was started in 2019 and at that time 10th gen did not see the light. In 2019, 9900k was the best choice for gaming without any hesitation offering top-notch gaming performance.\\n\\n![alter-text](/images/post/processor_1.png)\\n*core i9 9900k*\\n\\n> “As the very purpose of my build is only playing games rather than doing other things,and Intel serves this purpose very well,it is enough for me. all of you know very well that the GAMING performance of intel is still better than ryzen. Because i can get better gaming performance, that’s why i have chosen intel.”\\n\\n#### MotherBoard\\n\\nFor the motherboard, the owner has selected MSI MEG Z390 GODLIKE. Both in terms of VRM performance and design, undoubtedly this is one of the best motherboards around and the perfect choice for this special build.\\n\\n![alter-text](/images/post/motherboard2.png)\\n*MSI MEG Z390 GODLIKE*\\n\\n#### Casing:\\n\\n![alter-text](/images/post/casing1.png)\\n*Beauty and the Beast- Cougar ConquerE*\\n\\nCougar Conquer has been used in this build. This case does not need any description. It has created its own position because of its unique design, build quality, and look. Many of us know that it does not come in ready to run state, rather this case needs to be assembled manually.\\n\\n#### Graphic Card\\n\\nThe 3000USD worth beast Colorful IGame Geforce RTX 2080ti Kudan V has been used in this build. This is a limited edition card and there are many more elements of this card to talk about. Firstly, this is a limited edition card. It’s too expensive. Starting from the design, build to the cooling system, everything is unique of this GPU. This GPU comes with hybrid cooling. Another interesting thing you can notice if you look at the build that is the color scheme of the GPU has been perfectly matched with the theme of STEAMBOY Build.\\n\\nThus, it further increases the beauty of the build. In other words, this is the perfect build to represent this special Graphics card. There are very few builds which have made the best use of this gorgeous looking Graphics card other than SteamBoy.  For a enthusiast grade special project, nothing could be more perfect than a GPU like this, a special edition graphics card. You will do feel proud when you are the only one who owns this card in the whole country just like the owner of this build-\\n\\n> The feeling of Owning the one and only unit of a product in the whole country is really different, I can say that maybe I don’t have a Leopard, but surely i have a Kudan\\n\\n\\n\\n![alter-text](/images/post/grapic_card_2.png)\\n*Geforce RTX 2080ti Kudan V*\\n\\n<Youtube id=\\"cqvCEwq1vQI\\" title=\\"Play:Youtube\\"/>\\n\\n\\n\\n","slug":"post-2"},{"frontmatter":{"title":"What you need to know about Photography","date":"2022-04-02T03:00:00.000Z","image":"/images/post/post-3.png","categories":["game"],"featured":true,"draft":false},"content":"\\nAbout PC Builder Bangladesh\\nPC Builder Bangladesh is the first video based podcast. We create video regarding gaming, tech news, tutorials and pc build builds. You can learn about gaming, gaming pc, pc building tutorials and other pc issues. Apart from these we also unbox and review pc components and other tech gadgets. You can join local and international tech gossips as well.  Subscribe and join us over youtube. We are also available on other social handles, feel free to communicate us over those as well.  We are tech enthusiasts like you, please help us grow.\\n\\n![alter-text](/images/post/post-8.png)\\n*Example Caption*\\n\\n\\n","slug":"post-3"},{"frontmatter":{"title":"Game Review","date":"2022-04-04T04:00:00.000Z","image":"/images/post/post-7.png","categories":["game"],"featured":true,"draft":true},"content":"\\nAbout PC Builder Bangladesh\\nPC Builder Bangladesh is the first video based podcast. We create video regarding gaming, tech news, tutorials and pc build builds. You can learn about gaming, gaming pc, pc building tutorials and other pc issues. Apart from these we also unbox and review pc components and other tech gadgets. You can join local and international tech gossips as well.  Subscribe and join us over youtube. We are also available on other social handles, feel free to communicate us over those as well.  We are tech enthusiasts like you, please help us grows.\\n\\n![alter-text](/images/post/post-7.png)\\n*Example Caption*\\n\\n","slug":"post-4"},{"frontmatter":{"title":"Why should you learn programming","date":"2022-04-04T05:00:00.000Z","image":"/images/post/post-5.png","categories":["programming"],"featured":true,"draft":false},"content":"\\nLearning programming offers numerous benefits that can open up new opportunities in today’s digital world. First and foremost, programming helps develop problem-solving skills by breaking down complex tasks into manageable steps. It allows you to automate repetitive tasks, saving time and increasing productivity. Additionally, with tech being integral to almost every industry, programming opens doors to a variety of career options, from web development to artificial intelligence.\\n\\nProgramming also fosters creativity, as it enables you to build apps, websites, or even games from scratch. Moreover, it encourages logical thinking and a systematic approach to challenges, which are valuable skills in both personal and professional life.\\n\\nFinally, learning programming can be highly rewarding. As you see your code come to life, you’ll gain a sense of accomplishment and the confidence to tackle more complex projects. Whether for a career or personal development, programming is a skill worth investing in.\\n\\n![alter-text](/images/post/post-5.png)\\n*Example Caption*\\n\\n","slug":"post-5"},{"frontmatter":{"title":"Why should you learn programming?","date":"2022-04-04T06:00:00.000Z","image":"/images/post/post-6.png","categories":["artificial-intelligence"],"featured":true,"draft":false},"content":"\\nLearning programming offers numerous benefits that can open up new opportunities in today’s digital world. First and foremost, programming helps develop problem-solving skills by breaking down complex tasks into manageable steps. It allows you to automate repetitive tasks, saving time and increasing productivity. Additionally, with tech being integral to almost every industry, programming opens doors to a variety of career options, from web development to artificial intelligence.\\n\\nProgramming also fosters creativity, as it enables you to build apps, websites, or even games from scratch. Moreover, it encourages logical thinking and a systematic approach to challenges, which are valuable skills in both personal and professional life.\\n\\nFinally, learning programming can be highly rewarding. As you see your code come to life, you’ll gain a sense of accomplishment and the confidence to tackle more complex projects. Whether for a career or personal development, programming is a skill worth investing in.\\n\\n![alter-text](/images/post/post-6.png)\\n*Example Caption*\\n\\n","slug":"post-6"},{"frontmatter":{"title":"About Pc Builder Bangladesh","date":"2025-01-03T07:00:00.000Z","image":"/images/post/post-7.png","categories":["youtube"],"featured":false,"draft":false},"content":"\\nAbout PC Builder Bangladesh\\nPC Builder Bangladesh is the first video based podcast. We create video regarding gaming, tech news, tutorials and pc build builds. You can learn about gaming, gaming pc, pc building tutorials and other pc issues. Apart from these we also unbox and review pc components and other tech gadgets. You can join local and international tech gossips as well.  Subscribe and join us over youtube. We are also available on other social handles, feel free to communicate us over those as well.  We are tech enthusiasts like you, please help us grow.\\n\\n\\n<Youtube id=\\"mBdYHtVDs68\\" title=\\"Play:Youtube\\"/>\\n","slug":"post-7"},{"frontmatter":{"title":"Flagship Mini Led Monitor from Benq | BenQ MOBIUZ EX321UX","date":"2025-01-25T08:00:00.000Z","image":"/images/post/post-8.png","categories":["youtube"],"featured":true,"draft":false},"content":"\\nAbout PC Builder Bangladesh\\nPC Builder Bangladesh is the first video based podcast. We create video regarding gaming, tech news, tutorials and pc build builds. You can learn about gaming, gaming pc, pc building tutorials and other pc issues. Apart from these we also unbox and review pc components and other tech gadgets. You can join local and international tech gossips as well.  Subscribe and join us over youtube. We are also available on other social handles, feel free to communicate us over those as well.  We are tech enthusiasts like you, please help us grow.\\n\\n\\n<Youtube id=\\"rBSpHXfDqZ0\\" title=\\"Play:Youtube\\"/>\\n","slug":"post-8"},{"frontmatter":{"title":"Laptop For Video Editors | ASUS ProArt P16","date":"2025-01-25T09:00:00.000Z","image":"/images/post/post-1.png","categories":["youtube"],"featured":false,"draft":false},"content":"\\n\\nAbout PC Builder Bangladesh\\nPC Builder Bangladesh is the first video based podcast. We create video regarding gaming, tech news, tutorials and pc build builds. You can learn about gaming, gaming pc, pc building tutorials and other pc issues. Apart from these we also unbox and review pc components and other tech gadgets. You can join local and international tech gossips as well.  Subscribe and join us over youtube. We are also available on other social handles, feel free to communicate us over those as well.  We are tech enthusiasts like you, please help us grow.\\n\\n\\n<Youtube id=\\"q3CwJCtVh0s\\" title=\\"Play:Youtube\\"/>\\n","slug":"post-9"}]');
-
-/***/ }),
-
-/***/ "./config/config.json":
-/*!****************************!*\
-  !*** ./config/config.json ***!
-  \****************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"site":{"title":"Pc Builder BD","base_url":"/","favicon":"/images/pcb-icon.jpg","logo":"/images/logo.png","logo_white":"/images/logo-light.png","logo_width":"50","logo_height":"50","logo_text":"PC"},"settings":{"theme_switcher":true,"default_theme":"system","pagination":6,"InnerPaginationOptions":{"enableTop":false,"enableBottom":true},"summary_length":200,"blog_folder":"posts"},"params":{"tag_manager_id":"","footer_content":"PC Builder Bangladesh is a platform that helps users customize, compare, and build their own PCs with compatible components at the best prices.","copyright":"Designed and Developed By [Rahat](https://rahat-work.netlify.app//)"},"metadata":{"meta_author":"Rahat","meta_image":"/images/pcb-thum.jpg","meta_description":"Pc Builder Bangladesh"},"widgets":{"about":{"enable":false,"content":"Lorem ipsum dolor sit amet, conse tfctetur adipiscing elit. Vel in in donec iaculis tempasus odio nunc laoreet . Libero ullam rgscorper."},"featured_posts":{"enable":true,"title":"Blog Categories","showPost":3},"categories":{"enable":true,"title":"Blog Categories"},"newsletter":{"enable":true,"title":"Newsletter","content":"Build your dream PC with ease! Get the latest deals, tips, and updates from PC Builder BD.","privacy_policy_page":"#","malichipm_url":""}},"disqus":{"enable":true,"shortname":"pc-build","settings":{}}}');
-
-/***/ }),
-
-/***/ "./config/theme.json":
-/*!***************************!*\
-  !*** ./config/theme.json ***!
-  \***************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"colors":{"default":{"theme_color":{"primary":"#2ba283","body":"#fff","border":"#e1e1e1","theme_light":"#f2f2f2","theme_dark":"#1a202c"},"text_color":{"default":"#555","dark":"#222","light":"#999"}},"darkmode":{"theme_color":{"primary":"#059669","body":"#111","border":"#636363","theme_light":"#f4f7f7","theme_dark":"#383848"},"text_color":{"default":"#a4a4a4","dark":"#ddd","light":"#fff"}}},"fonts":{"font_family":{"primary":"Raleway:wght@400","primary_type":"sans-serif","secondary":"Merriweather Sans:wght@400;700","secondary_type":"sans-serif"},"font_size":{"base":"16","scale":"1.200"}}}');
+module.exports = require("react/jsx-runtime");
 
 /***/ })
 
@@ -139,7 +150,7 @@ module.exports = JSON.parse('{"colors":{"default":{"theme_color":{"primary":"#2b
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
+var __webpack_exports__ = __webpack_require__.X(0, [626,906], () => (__webpack_exec__(2091)));
 module.exports = __webpack_exports__;
 
 })();
