@@ -156,7 +156,7 @@ const Home = ({ banner , posts , featured_posts , recent_posts , categories , pr
                             ]
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_layouts_partials_Sidebar__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {
-                            className: "lg:mt-[9.5rem]",
+                            className: "lg:mt-[8rem]",
                             posts: posts,
                             categories: categories
                         })
