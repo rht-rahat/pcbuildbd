@@ -1,15 +1,24 @@
 ---
-title: "140K EDITING PC BUILD ft. RYZEN 7 7700 & RTX 4060"
+title: "১ লাখ ১৫ হাজার- ২ লাখ টাকা বাজেটের পিসি বিল্ড"
 date: 2025-01-10T11:00:00Z
-image: /images/post/post-3.png
+image: /images/post/post-9.png
 categories: ["youtube"]
 featured: false
 draft: false
 ---
 
 
-About PC Builder Bangladesh
-PC Builder Bangladesh is the first video based podcast. We create video regarding gaming, tech news, tutorials and pc build builds. You can learn about gaming, gaming pc, pc building tutorials and other pc issues. Apart from these we also unbox and review pc components and other tech gadgets. You can join local and international tech gossips as well.  Subscribe and join us over youtube. We are also available on other social handles, feel free to communicate us over those as well.  We are tech enthusiasts like you, please help us grow.
+১ লাখ ১৫ হাজার টাকা বা এর আশেপাশের বাজেটে 1440p গেমিং বা হেভি ভিডিও এডিটিং/প্রোডাক্টিভিটি এর কাজের জন্য বেশ ভালো মানের পিসি বিল্ড করা সম্ভব এই মুহুর্তে। বিশেষ করে মাল্টিকোর ওয়ার্কলোডের জন্য আমাদের কাছে 13th gen core i5 এর মত খুবই চমৎকার অপশন রয়েছে। Core i5 13400f প্রোডাক্টিভিটির পাশাপাশি গেমিং এও আমাদের উদ্দেশ্য ভালোভাবেই পুরণ করবে। বিশেষত, Esports গেমস যেমন valorant, CSGO,Fortnite,Pubg, Rainbow Six বা APEX এর মত গেমগুলো যারা স্ট্রিম করতে চান, তাদের জন্য এই বাজেটটি একটি সুইটস্পট।
+
+#### বাজেট ১ লাখ ৯৫ হাজার-২ লাখ টাকা 
+
+এই বাজেটে আমরা দুইটি বিল্ড করতে চাই। একটা 4070 দিয়ে, আরেকটা Sapphire RX 6900 XT Special Edition GPU দিয়ে। এক্ষেত্রে আমরা 12900K+4070 এর সাথে ৮৫০ ওয়াট পাওয়ার সাপ্লাই দিয়ে বিল্ড করবো, অন্যটিতে Sapphire 6900XT এর সাথে 12700KF,750W পাওয়ার সাপ্লাই থাকবে।
+
+#### Components:
+
+![alter-text](/images/post/price.png)
+*component price*
+
 
 
 <Youtube id="yGSLO2Mwkik" title="Play:Youtube"/>

@@ -1,15 +1,45 @@
 ---
-title: "6000 USD SteamBoy - A Gaming PC Build from Renaissance ft Geforce RTX Kudan"
+title: "প্রশ্নোত্তরে RTX 50 সিরিজ"
 date: 2025-02-01T15:00:00Z
 image: /images/post/post-7.png
-categories: ["pc build"]
+categories: ["Graphic"]
 featured: false
 draft: false
 ---
 
 
-About PC Builder Bangladesh
-PC Builder Bangladesh is the first video based podcast. We create video regarding gaming, tech news, tutorials and pc build builds. You can learn about gaming, gaming pc, pc building tutorials and other pc issues. Apart from these we also unbox and review pc components and other tech gadgets. You can join local and international tech gossips as well.  Subscribe and join us over youtube. We are also available on other social handles, feel free to communicate us over those as well.  We are tech enthusiasts like you, please help us grow.
+আসন্ন RTX 50 সিরিজ হোক বা ইন্টেলের ARC B সিরিজ কিংবা AMD এর কোনো নতুন প্রসেসর বা গ্রাফিক্স কার্ড , বিভিন্ন সময় আপডেটেড নিউজগুলো একত্র করে একটি বড় আর্টিকেলের মাধ্যমে আমরা আপনাদের কাছে উপস্থাপন করে থাকি । তবে যারা পড়তে ভালোবাসেন না, তাদের জন্য এই ধরনের লেখনী কিছুটা বিরক্তিকর ও ক্লান্তিকরই মনে হয়।
+
+সামনেই আসতে যাচ্ছে RTX 50 সিরিজ। এবার এই ধরনের পাঠক বা ফলোয়ারদের কথা মাথায় রেখে আমরা RTX 50 সিরিজের সমস্ত তথ্য সাজিয়েছি একটু ভিন্নভাবে,ছোট-ছোট প্রশ্নোত্তর ভিত্তিক উপস্থাপনার মাধ্যমে। আশা করছি সমস্ত পাঠকদেরই এটি ভালো লাগবে।
+
+ 
+
+#### RTX 50 সিরিজ সংক্রান্ত অফিশিয়াল ঘোষণা কবে আসবে?
+জানুয়ারির ৬ তারিখে ২০২৫ সালের CES এর KEYNOTE এ অফিশিয়ালি NVIDIA উন্মোচন করবে RTX 50 সিরিজ। এইদিনেই জানা যাবে গ্রাফিক্স কার্ডগুলোর আর্কিটেকচার,ফিচার ও পারফর্মেন্স সম্পর্কে সমস্ত অফিশিয়াল তথ্য।
+প্রথমে কোন গ্রাফিক্স কার্ড লঞ্চ হবে??
+এখন পর্যন্ত যতদুর তথ্য জানা গিয়েছে এবার RTX 5090 বা ফ্লাগশিপ মডেলের আগে বাজারে আসবে RTX 5080। অর্থাৎ 5080 আগে লঞ্চ হবে, পরবর্তীতে এক দেড় মাসের মধ্যে হয়তো RTX 5090 আত্মপ্রকাশ করবে।
+
+#### RTX 5080 ও 5090 কবে লঞ্চ হবে?
+RTX 5080 জানুয়ারির ২১ তারিখে লঞ্চ হবে বলে জানা গিয়েছে। তবে RTX 5090 এর রিলিজডেটের তারিখ সম্পর্কে নিশ্চিত হওয়া যায়নি। তবে ফেব্রুয়ারি মাসে হয়তো 5090 লঞ্চ হলেও হতে পারে। এটি নিশ্চিত হওয়া যাবে ৬ তারিখেই।
+
+ 
+
+#### RTX 50 সিরিজের GPU এর সাধারণ স্পেসিফিকেশন, নাম ফিচার কি কি?
+RTX 50 সিরিজের কোডনেম হবে  “BLACKWELL”। উল্লেখ্য, RTX 40 এর কোডনেম ছিল ADA LOVELACE । GPU গুলোর নাম হবে GBXXX-XXX এরকম। সম্ভবত সবথেকে শক্তিশালী GPU টি হবে GB202-xxx .। RTX 50 সিরিজে থাকবে NEXT GENERATION GDDR7 MEMORY। আরো থাকবে PCIe5। আগেরবারের মতই থাকবে 12V-2X6 power connector পাওয়ার কানেক্টর।
+
+যেখানে RTX 40 সিরিজের GDDR6,GDDR6X এর স্পিড ছিল 17-23Gbps, GDDR7 এর স্পিড থাকবে ৩০ এর আশেপাশে। অনেক ক্ষেত্রে আগেও NVIDIA কে দেখা গিয়েছে সর্বোচ্চ স্পিড ব্যবহার না করতে ,কিছুটা downclocked করে দিতে। SK-Hynix এর মতে GDDR7 জেনারেশনে 40gbps এর মেমোরিও আসবে একটা সময়।
+
+থাকতে পারে উল্লেখযোগ্য পরিমাণে L2 Cache।
+
+#### BLACKWELL সম্পর্কে জানতে চাই।
+আর্কিটেকচারটি TSMC এর 4NP “4nm Nvidia Performance” প্রসেসে প্রস্তত।অর্থাৎ 40 সিরিজে ব্যবহ্বত N4 নোডকেই আরো “ধুয়ে মুছে” ,আরেকটু উন্নত করে ব্যবহার করা হচ্ছে। অনেকেই আশা করেছিলেন যে TSMC এর চিত্তাকর্ষক N3 প্রসেস এর ব্যবহার হবে এবার, তা হচ্ছে না আসলে।
+
+Blackwell সম্পর্কে মাঝেমধ্যেই এনভিডিয়ার পক্ষ থেকে বেশ কিছু তথ্য বিভিন্ন সময় দেখানো হয়েছে। ব্লাকওয়েলে থাকবে ১০৪ বিলিয়ন ট্রাঞ্জিস্টর।এটিকে বাহ্যিকভাবে সবথেকে বড় চিপ হিসেবে আখ্যা দিয়েছে তারা। এটির সর্বোচ্চ bandwidth হবে 10TB/s।
+
+![alter-text](/images/post/blackwell.png)
+*Blackwell TSMC এর 4NP “4nm Nvidia Performance*
 
 
-<Youtube id="cqvCEwq1vQI" title="Play:Youtube"/>
+
+
+<Youtube id="SRiV0RgHWI0" title="Play:Youtube"/>

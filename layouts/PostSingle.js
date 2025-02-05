@@ -73,7 +73,7 @@ const PostSingle = ({
                     <InnerPagination posts={posts} date={date} />
                   </div>
                 )}
-                {markdownify(title, "h1", "lg:text-[42px] mt-4")}
+                {markdownify(title, "h1", "lg:text-[35px] mt-4")}
                 <ul className="flex items-center space-x-4">
                   <li>
                     <Link
