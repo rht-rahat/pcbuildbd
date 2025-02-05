@@ -4,7 +4,7 @@ import Base from "@layouts/Baseof";
 import Contact from "@layouts/Contact";
 import Default from "@layouts/Default";
 import { getRegularPage, getSinglePage } from "@lib/contentParser";
-
+import { SpeedInsights } from '@vercel/speed-insights/next';
 // for all regular pages
 const RegularPages = ({ data }) => {
   const { title, meta_title, description, image, noindex, canonical, layout } =
@@ -29,6 +29,7 @@ const RegularPages = ({ data }) => {
       ) : (
         <Default data={data} />
       )}
+      <SpeedInsights/>
     </Base>
   );
 };
