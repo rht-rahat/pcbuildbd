@@ -1,13 +1,13 @@
 ---
 banner:
   title: Welcome **!**
-  title_small: "to John Bravo's Blog"
+  title_small: "Pc builder bd"
   content: Are Developer and recently started your own business Already made website to ensure presence wants to develop.
   image_enable: false
   image: /images/banner-author.png
   button:
     enable: true
-    label: Know About Me
+    label: about ap builder
     link: /about
     rel: ""
 
