@@ -4,13 +4,7 @@ import Footer from "@partials/Footer";
 import Header from "@partials/Header";
 import Head from "next/head";
 import { useRouter } from "next/router";
-import dynamic from "next/dynamic";
-import { useEffect, useState } from "react";
 
-const SpeedInsights = dynamic(
-  () => import("@vercel/speed-insights/next").then((mod) => mod.SpeedInsights),
-  { ssr: false }
-);
 const Base = ({
   title,
   meta_title,
@@ -23,7 +17,6 @@ const Base = ({
   const { meta_image, meta_author, meta_description } = config.metadata;
   const { base_url } = config.site;
   const router = useRouter();
-  const [isClient, setIsClient] = useState(false);
 
   return (
     <>
@@ -98,10 +91,7 @@ const Base = ({
       </Head>
       <Header />
       {/* main site */}
-      <main>
-        {children}
-        {isClient && <SpeedInsights />}
-      </main>
+      <main>{children}</main>
       <Footer />
     </>
   );
