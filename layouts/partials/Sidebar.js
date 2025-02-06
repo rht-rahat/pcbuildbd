@@ -128,7 +128,7 @@ const Sidebar = ({ posts, categories, className }) => {
                       />
                     )}
                     <div>
-                      <h3 className="h5 mb-2">
+                      <h3 className="h6 mb-2">
                         <Link
                           href={`/${blog_folder}/${post.slug}`}
                           className="block hover:text-primary"
