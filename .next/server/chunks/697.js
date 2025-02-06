@@ -20,10 +20,6 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(1853);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(5152);
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_lib_utils_textConverter__WEBPACK_IMPORTED_MODULE_2__, _partials_Footer__WEBPACK_IMPORTED_MODULE_3__]);
 ([_lib_utils_textConverter__WEBPACK_IMPORTED_MODULE_2__, _partials_Footer__WEBPACK_IMPORTED_MODULE_3__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
@@ -33,21 +29,10 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_lib
 
 
 
-
-
-const SpeedInsights = next_dynamic__WEBPACK_IMPORTED_MODULE_7___default()(null, {
-    loadableGenerated: {
-        modules: [
-            "..\\layouts\\Baseof.js -> " + "@vercel/speed-insights/next"
-        ]
-    },
-    ssr: false
-});
 const Base = ({ title , meta_title , description , image , noindex , canonical , children  })=>{
     const { meta_image , meta_author , meta_description  } = _config_config_json__WEBPACK_IMPORTED_MODULE_1__.metadata;
     const { base_url  } = _config_config_json__WEBPACK_IMPORTED_MODULE_1__.site;
     const router = (0,next_router__WEBPACK_IMPORTED_MODULE_6__.useRouter)();
-    const [isClient, setIsClient] = (0,react__WEBPACK_IMPORTED_MODULE_8__.useState)(false);
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: [
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_head__WEBPACK_IMPORTED_MODULE_5___default()), {
@@ -111,11 +96,8 @@ const Base = ({ title , meta_title , description , image , noindex , canonical ,
                 ]
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_partials_Header__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {}),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("main", {
-                children: [
-                    children,
-                    isClient && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(SpeedInsights, {})
-                ]
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("main", {
+                children: children
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_partials_Footer__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {})
         ]

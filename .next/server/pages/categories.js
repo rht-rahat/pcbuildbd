@@ -218,13 +218,6 @@ module.exports = require("next/dist/shared/lib/is-plain-object.js");
 
 /***/ }),
 
-/***/ 5832:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/loadable.js");
-
-/***/ }),
-
 /***/ 8020:
 /***/ ((module) => {
 
@@ -484,7 +477,7 @@ module.exports = require("path");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [121,676,157,626,697,879], () => (__webpack_exec__(3841)));
+var __webpack_exports__ = __webpack_require__.X(0, [121,676,61,626,697,879], () => (__webpack_exec__(3841)));
 module.exports = __webpack_exports__;
 
 })();

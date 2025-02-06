@@ -441,10 +441,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _layouts_Contact__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(6722);
 /* harmony import */ var _layouts_Default__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(550);
 /* harmony import */ var _lib_contentParser__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(4879);
-/* harmony import */ var _vercel_speed_insights_next__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(7451);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_layouts_404__WEBPACK_IMPORTED_MODULE_1__, _layouts_About__WEBPACK_IMPORTED_MODULE_2__, _layouts_Baseof__WEBPACK_IMPORTED_MODULE_3__, _layouts_Contact__WEBPACK_IMPORTED_MODULE_4__, _layouts_Default__WEBPACK_IMPORTED_MODULE_5__, _lib_contentParser__WEBPACK_IMPORTED_MODULE_6__, _vercel_speed_insights_next__WEBPACK_IMPORTED_MODULE_7__]);
-([_layouts_404__WEBPACK_IMPORTED_MODULE_1__, _layouts_About__WEBPACK_IMPORTED_MODULE_2__, _layouts_Baseof__WEBPACK_IMPORTED_MODULE_3__, _layouts_Contact__WEBPACK_IMPORTED_MODULE_4__, _layouts_Default__WEBPACK_IMPORTED_MODULE_5__, _lib_contentParser__WEBPACK_IMPORTED_MODULE_6__, _vercel_speed_insights_next__WEBPACK_IMPORTED_MODULE_7__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
-
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_layouts_404__WEBPACK_IMPORTED_MODULE_1__, _layouts_About__WEBPACK_IMPORTED_MODULE_2__, _layouts_Baseof__WEBPACK_IMPORTED_MODULE_3__, _layouts_Contact__WEBPACK_IMPORTED_MODULE_4__, _layouts_Default__WEBPACK_IMPORTED_MODULE_5__, _lib_contentParser__WEBPACK_IMPORTED_MODULE_6__]);
+([_layouts_404__WEBPACK_IMPORTED_MODULE_1__, _layouts_About__WEBPACK_IMPORTED_MODULE_2__, _layouts_Baseof__WEBPACK_IMPORTED_MODULE_3__, _layouts_Contact__WEBPACK_IMPORTED_MODULE_4__, _layouts_Default__WEBPACK_IMPORTED_MODULE_5__, _lib_contentParser__WEBPACK_IMPORTED_MODULE_6__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
 
 
@@ -456,25 +454,22 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_lay
 const RegularPages = ({ data  })=>{
     const { title , meta_title , description , image , noindex , canonical , layout  } = data.frontmatter;
     const { content  } = data;
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_layouts_Baseof__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_layouts_Baseof__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
         title: title,
         description: description ? description : content.slice(0, 120),
         meta_title: meta_title,
         image: image,
         noindex: noindex,
         canonical: canonical,
-        children: [
-            layout === "404" ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_layouts_404__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
-                data: data
-            }) : layout === "about" ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_layouts_About__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
-                data: data
-            }) : layout === "contact" ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_layouts_Contact__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                data: data
-            }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_layouts_Default__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
-                data: data
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_vercel_speed_insights_next__WEBPACK_IMPORTED_MODULE_7__.SpeedInsights, {})
-        ]
+        children: layout === "404" ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_layouts_404__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
+            data: data
+        }) : layout === "about" ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_layouts_About__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+            data: data
+        }) : layout === "contact" ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_layouts_Contact__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
+            data: data
+        }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_layouts_Default__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
+            data: data
+        })
     });
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (RegularPages);
@@ -589,13 +584,6 @@ module.exports = require("next/dist/shared/lib/image-loader");
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/is-plain-object.js");
-
-/***/ }),
-
-/***/ 5832:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/loadable.js");
 
 /***/ }),
 
@@ -830,13 +818,6 @@ module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
-/***/ 7451:
-/***/ ((module) => {
-
-module.exports = import("@vercel/speed-insights/next");;
-
-/***/ }),
-
 /***/ 1578:
 /***/ ((module) => {
 
@@ -900,7 +881,7 @@ module.exports = require("path");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [121,676,157,626,697,879,190], () => (__webpack_exec__(1836)));
+var __webpack_exports__ = __webpack_require__.X(0, [121,676,61,626,697,879,190], () => (__webpack_exec__(1836)));
 module.exports = __webpack_exports__;
 
 })();

@@ -1,10 +1,4 @@
 {
-  "..\\layouts\\Baseof.js -> @vercel/speed-insights/next": {
-    "id": 3980,
-    "files": [
-      "static/chunks/980.e8f63b32e9fe581f.js"
-    ]
-  },
   "..\\node_modules\\react-syntax-highlighter\\dist\\esm\\async-languages\\hljs.js -> highlight.js/lib/languages/1c": {
     "id": 73870,
     "files": []
