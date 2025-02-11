@@ -52,8 +52,6 @@ npm run build
 
 ## LicenseCopyright (c) 2025 - Present, Designed & Developed by [Rahat](https://rahat-work.netlify.app/)
 
-Released under the [MIT](https://github.com/Rahat/geeky-nextjs/blob/main/LICENSE) license.
-
 
 
 
